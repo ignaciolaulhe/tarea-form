@@ -40,4 +40,9 @@ header {
 #nombre{
     display: flex;
     align-items: center;
+    gap: 5em;
+}
+
+input{
+    padding: 1.7em;
 }
