@@ -15,32 +15,35 @@
             <div id="nombre">
 
             <article>
-            <h2>Nombre</h2>
+            <h3>Nombre</h3>
             <input class="contenedor" type="text" name="Nombre" placeholder="Nombre">
             </article>
 
             <article>
-            <h2>Apellido</h2>
+            <h3>Apellido</h3>
             <input class="contenedor" type="text" name="Apellido" placeholder="Apellido">
             </article>
             </div>
 
-            <article></article>
-            <h2>Email</h2>
+            <article>
+            <h3>Email</h3>
             <input class="contenedor" type="email" name="Email" placeholder="Email">
             </article>
 
             <article>
-            <h2>Mensaje</h2>
-            <input class="contenedor" type="text" name="Mensaje" placeholder="Cuentanos lo que quieras">
+            <h3>Mensaje</h3>
+            <input class="contenedor" type="text" name="Mensaje" placeholder="Cuentanos lo que quieras" id="caja">
             </article>
 
-            <article>
+            <div id="box">
+            <article id="checkbox">
             <input type="checkbox">
             <h3>Acepto los terminos y condiciones</h3>
             </article>
 
+            <input type="hidden" name="_template" value="table">
             <button id="boton" type="submit">Enviar</button>
+            </div>
         </form>
     </main>
 </body>

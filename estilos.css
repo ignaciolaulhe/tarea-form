@@ -9,6 +9,7 @@
     max-width: 1000px;
     margin-inline: auto;
     padding-inline: 1rem;
+    width: 100%;
 }
 
 :root {
@@ -39,10 +40,41 @@ header {
 
 #nombre{
     display: flex;
-    align-items: center;
-    gap: 5em;
+    width: 100%;
 }
 
 input{
-    padding: 1.7em;
+    padding: 1.3em;
+    border-radius: 11px;
+    border: 1px rgb(180, 180, 180) solid;
+}
+
+article{
+    margin: 1em;
+}
+
+#checkbox{
+    display: flex;
+    gap: 1em;
+}
+
+#caja{
+    padding: 5em;
+}
+
+#boton{
+    color: white;
+    background-color: rgb(37, 37, 37);
+    padding: 0.5em 1.3em;
+    border: 1px rgb(37, 37, 37) solid;
+    border-radius: 15px;
+}
+
+.largo{
+    width: 100%;
+}
+
+#box{
+    display: flex;
+    justify-content: space-between;
 }
